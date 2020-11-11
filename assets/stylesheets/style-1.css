@@ -1,0 +1,139 @@
+/* default setting */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav bar */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7510F7;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#7510F7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.basic {
+    text-align: center;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+h1,h3,p {
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.about {
+    background-color:#7510F7;
+    color:#fff;
+}
+
+.contact {
+    background-color:#7510F7;
+    color:#fff;
+}
+
+/* padding provide for paragraph */
+.para_div {
+    padding-left: 28em;
+    padding-right: 28em;
+}
+
+/* parent box for flex */
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* first child box of flex */
+.box-1 {
+    max-width: 300px;
+    max-height: 500px;
+    position: relative;
+    border-radius: 10px;
+    background-color:#7510F7;
+    color: white;
+    margin: 3em;
+    padding: 1.5em;
+}
+
+/* second child box og=f flex */
+.box-2 {
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+    border-radius: 10px;
+    background-color:#7510F7;
+    color:white;
+    margin: 3em;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* go button */
+.button {
+    background-color: #141c3a;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+  }
+
+/* change the size of text and padding for small screen */
+@media (max-width:600px) {
+    .basic {
+        display: block;
+        padding: .5em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }   
+}
+
+/* padding of paragraph */
+@media (max-width:1000px) {
+    .para_div{
+        padding: 2em;
+    }
+}
+
+/* change of screen size for tablets */
+@media (min-width:1000px) and (max-width:1800px) {
+    .para_div {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+}
