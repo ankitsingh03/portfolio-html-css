@@ -112,7 +112,6 @@ img {
 /* change the size of text and padding for small screen */
 @media (max-width:600px) {
     .basic {
-        display: block;
         padding: .5em;
     }
     h1 {
