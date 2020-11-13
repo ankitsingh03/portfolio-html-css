@@ -9,6 +9,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #7510F7;
+    font-size: 20px;
 }
 ul {
     list-style-type: none;
@@ -28,12 +29,13 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .basic {
     text-align: center;
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 0em;
+    padding-bottom: 1em;
     padding-left: 5em;
     padding-right: 5em;
 }
@@ -77,7 +79,8 @@ h1,h3,p {
     background-color:#7510F7;
     color: white;
     margin: 3em;
-    padding: 1.5em;
+    margin-top: 1em;
+    padding: 1em;
 }
 
 /* second child box og=f flex */
@@ -89,6 +92,7 @@ h1,h3,p {
     background-color:#7510F7;
     color:white;
     margin: 3em;
+    margin-bottom: 1em;
 }
 
 img {
